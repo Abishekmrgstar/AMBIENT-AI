@@ -119,7 +119,24 @@ Follow these steps to run Ambient AI locally (without Docker).
 Ensure you have the required tools installed:
 
 ```bash
+# Python 3.10 or higher
+python --version
 
+# Node.js 18+ and npm
+node --version
+npm --version
+```
+
+- **Python:** Install from [python.org](https://www.python.org/downloads/) or your package manager. On Windows, tick "Add Python to PATH".
+- **Node.js:** Install from [nodejs.org](https://nodejs.org/) (LTS recommended).
+- **FFmpeg:** Required for Whisper. The backend can use `imageio-ffmpeg` (installed via `requirements.txt`); on some systems you may need to [install FFmpeg](https://ffmpeg.org/download.html) separately.
+
+### Step 2 — Clone the repository
+
+```bash
+git clone https://github.com/Devakesavan/Ambient-AI.git
+cd Ambient-AI
+```
 
 ### Step 3 — Backend setup
 
@@ -253,6 +270,12 @@ Copy `.env.example` to `.env` (in `backend/` for local run, or in project root f
 See `.env.example` and `DOCKER.md` for a full list and Docker-specific notes.
 
 ---
+## Image
+
+![WhatsApp Image 2026-02-24 at 7 36 00 AM](https://github.com/user-attachments/assets/0fd4ec1b-2d67-4964-a587-6678222990f3)
+![WhatsApp Image 2026-02-24 at 7 33 56 AM](https://github.com/user-attachments/assets/eb111104-4b61-496f-a915-014f300a8700)
+<img width="2558" height="1390" alt="image" src="https://github.com/user-attachments/assets/8189ade6-45da-4190-bd68-8b2d6b489ea9" />
+<img width="2559" height="1403" alt="image" src="https://github.com/user-attachments/assets/1c174873-8d25-47ee-bacf-1401e4d8236f" />
 
 ## Usage
 
@@ -309,6 +332,6 @@ This project is provided as-is for educational and healthcare-support use. See t
 
 ## Repository
 
-
+**GitHub:** [https://github.com/Devakesavan/Ambient-AI](https://github.com/Devakesavan/Ambient-AI)
 
 For Docker-only setup and troubleshooting, refer to **DOCKER.md** in the project root.
